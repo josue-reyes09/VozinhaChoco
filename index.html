@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GrandSport: tienda de ropa deportiva, jerseys de fútbol y basquetbol, y sneakers. Consulta horarios, servicios, costos y solicita asistencia.">
+  <meta name="author" content="GrandSport">
+  <meta name="keywords" content="ropa deportiva, jerseys, fútbol, basquetbol, sneakers, tienda">
+  <title>VozinhaChoco | Ropa deportiva, jerseys y sneakers</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md container">
+      <a class="navbar-brand" href="#inicio">VozinhaChoco</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#horario">Horario</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios y costos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Solicitar asistencia</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <h1>Vozinha Choco</h1>
+            <p class="hero-lead">Jerseys de fútbol, uniformes de basquetbol y sneakers para jugar, entrenar y presumir.</p>
+            <a href="#contacto" class="btn btn-gs btn-lg">Solicitar asistencia</a>
+            <a href="#servicios" class="btn btn-link link-ink">Ver servicios y costos</a>
+          </div>
+          <div class="col-lg-5">
+            <img class="hero-img" alt="Ilustración de un jersey deportivo azul con el número 10"
+              src="/cpvjersey.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Horario -->
+    <section id="horario" class="section">
+      <div class="container">
+        <h2>Horario de servicio</h2>
+        <p class="section-intro">Atendemos en tienda y por mensaje durante estos horarios.</p>
+        <ul class="schedule list-unstyled">
+          <li><span>Lunes a viernes</span> <strong>10:00 a 20:00</strong></li>
+          <li><span>Sábado</span> <strong>10:00 a 21:00</strong></li>
+          <li><span>Domingo</span> <strong>11:00 a 17:00</strong></li>
+        </ul>
+        <p class="note">Días festivos: horario de domingo.</p>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section section-alt">
+      <div class="container">
+        <h2>Servicios y costos</h2>
+        <p class="section-intro">Además de vender producto, personalizamos y damos mantenimiento.</p>
+        <div class="table-responsive">
+          <table class="table price-table">
+            <caption>Precios en pesos mexicanos (MXN), IVA incluido.</caption>
+            <thead>
+              <tr><th scope="col">Servicio</th><th scope="col">Descripción</th><th scope="col" class="text-end">Costo</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Jersey de fútbol</td><td>Réplica de club o selección, tallas S a XXL</td><td class="text-end">desde $899</td></tr>
+              <tr><td>Uniforme de basquetbol</td><td>Jersey y short, personalizable por equipo</td><td class="text-end">desde $750</td></tr>
+              <tr><td>Sneakers</td><td>Running, basquetbol y uso diario</td><td class="text-end">desde $1,499</td></tr>
+              <tr><td>Estampado de nombre y número</td><td>Vinil de alta duración, entrega en 48 horas</td><td class="text-end">$150</td></tr>
+              <tr><td>Limpieza de sneakers</td><td>Limpieza profunda y desodorizado</td><td class="text-end">$120</td></tr>
+              <tr><td>Cambio de talla</td><td>Dentro de los primeros 15 días, con ticket</td><td class="text-end">Gratis</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section id="ubicacion" class="section">
+      <div class="container">
+        <h2>Ubicación</h2>
+        <p class="section-intro">Visítanos en Ciudad Juárez, Chihuahua. Consulta también nuestras <a href="#horario">horas de atención</a>.</p>
+        <div class="map-wrap">
+          <iframe title="Mapa de la ubicación de GrandSport en Ciudad Juárez" loading="lazy"
+            src="https://maps.google.com/maps?q=Ciudad+Ju%C3%A1rez,+Chihuahua&output=embed" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario -->
+    <section id="contacto" class="section section-alt">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <h2>Solicitar asistencia</h2>
+            <p class="section-intro">¿Problema con un pedido, una talla o un estampado? Cuéntanos y te respondemos lo antes posible.</p>
+            <div id="resumen" class="saved-box" hidden>
+              <h3 class="h6">Tus solicitudes (toca una para abrirla)</h3>
+              <ol id="listaSolicitudes"></ol>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <form id="formContacto" class="gs-form" novalidate>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required minlength="3" autocomplete="name">
+                <div class="invalid-feedback" id="errNombre">Escribe tu nombre completo (mínimo 3 caracteres).</div>
+              </div>
+              <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" name="correo" required autocomplete="email" placeholder="nombre@correo.com">
+                <div class="invalid-feedback" id="errCorreo">Escribe un correo válido, por ejemplo nombre@correo.com.</div>
+              </div>
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono de contacto</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono" required pattern="[0-9 +()\-]{10,15}" autocomplete="tel" placeholder="656 123 4567">
+                <div class="invalid-feedback" id="errTelefono">Escribe un teléfono de 10 a 15 dígitos.</div>
+              </div>
+              <div class="mb-3">
+                <label for="descripcion" class="form-label">Descripción del problema</label>
+                <textarea class="form-control" id="descripcion" name="descripcion" rows="5" required minlength="10" maxlength="300"></textarea>
+                <div class="d-flex justify-content-between">
+                  <div class="invalid-feedback" id="errDescripcion">Describe el problema con al menos 10 caracteres.</div>
+                  <small class="counter ms-auto" id="contador">0 / 300</small>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-gs btn-lg">Enviar solicitud</button>
+              <div id="confirmacion" class="alert alert-success mt-4" role="status" hidden></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <p class="mb-0"><strong>GrandSport</strong> · Ciudad Juárez, Chihuahua</p>
+      <p class="mb-0">contacto@grandsport.example · 656 000 0000</p>
+      <p class="mb-0">&copy; 2026 GrandSport. Proyecto ficticio.</p>
+    </div>
+  </footer>
+
+  <!-- Detalle de solicitud -->
+  <div class="modal fade" id="modalSolicitud" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="modalTitulo">Detalle de la solicitud</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <dl class="detalle mb-0">
+            <dt>Folio</dt><dd id="dFolio"></dd>
+            <dt>Fecha de envío</dt><dd id="dFecha"></dd>
+            <dt>Nombre completo</dt><dd id="dNombre"></dd>
+            <dt>Correo electrónico</dt><dd id="dCorreo"></dd>
+            <dt>Teléfono de contacto</dt><dd id="dTelefono"></dd>
+            <dt>Descripción del problema</dt><dd id="dDescripcion"></dd>
+          </dl>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-danger" id="btnEliminar">Eliminar solicitud</button>
+          <button type="button" class="btn btn-gs" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
